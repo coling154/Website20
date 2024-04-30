@@ -1,0 +1,33 @@
+.container {
+    max-width: 960px;
+    
+  }
+  
+  .icon-link > .bi {
+    width: .75em;
+    height: .75em;
+  }
+  .bg {
+    background-color: #212529;
+  }
+  
+  /*
+   * Custom translucent site header
+   */
+   .navbar {
+    background-color: #212529;
+   }
+   
+   .nav-item {
+    background-color: rgba(#212529);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .nav-item a {
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
+  }
+  .nav-item a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
